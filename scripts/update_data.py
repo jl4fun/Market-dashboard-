@@ -18,7 +18,7 @@ SGT = pytz.timezone("Asia/Singapore")
 UTC = pytz.utc
 
 def sgt_now():
-return datetime.now(SGT).strftime("%Y-%m-%d %H:%M SGT")
+    return datetime.now(SGT).strftime("%Y-%m-%d %H:%M SGT")
 
 # ── 战前基准数据（2026-02-27 已验证）────────────────────────────────────────
 
