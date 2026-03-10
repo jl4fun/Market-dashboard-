@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+
+<title>Global Market Dashboard</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+
+body{
+font-family:Arial;
+background:#0f172a;
+color:white;
+margin:30px;
+}
+
+h1{
+text-align:center;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th,td{
+padding:10px;
+text-align:center;
+border-bottom:1px solid #334155;
+}
+
+.up{color:#22c55e}
+.down{color:#ef4444}
+
+canvas{
+background:white;
+border-radius:8px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Global Market Dashboard</h1>
+
+<p id="time"></p>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>Crypto</h3>
+
+<table>
+
+<tr>
+<th>Asset</th>
+<th>Price</th>
+</tr>
+
+<tr>
+<td>Bitcoin</td>
+<td id="btc"></td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="card">
+
+<h3>Macro Signals</h3>
+
+<ul id="signal">
+<li>Loading...</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>Market Theme</h3>
+
+<ul>
+
+<li>War Risk</li>
+<li>Inflation</li>
+<li>USD Strength</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<br>
+
+<div class="card">
+
+<h3>Bitcoin Trend</h3>
+
+<canvas id="chart"></canvas>
+
+</div>
+
+<script>
+
+document.getElementById("time").innerHTML =
+"Last Update: " + new Date().toLocaleString()
+
+
+async function loadBTC(){
+
+let res=await fetch(
+"https://api.coindesk.com/v1/bpi/currentprice.json"
+)
+
+let data=await res.json()
+
+let price=parseFloat(
+data.bpi.USD.rate.replace(",","")
+)
+
+document.getElementById("btc").innerHTML="$"+price
+
+let signal=document.getElementById("signal")
+
+if(price>70000){
+
+signal.innerHTML="<li>BTC Overheated</li><li>Consider Taking Profit</li>"
+
+}else{
+
+signal.innerHTML="<li>BTC Pullback</li><li>Possible Buy Zone</li>"
+
+}
+
+}
+
+loadBTC()
+
+const ctx=document.getElementById("chart")
+
+new Chart(ctx,{
+
+type:"line",
+
+data:{
+
+labels:["1","2","3","4","5","6","7"],
+
+datasets:[{
+
+label:"BTC",
+
+data:[68000,69000,70000,69500,71000,70500,69800]
+
+}]
+
+}
+
+})
+
+</script>
+
+</body>
+
+</html>
