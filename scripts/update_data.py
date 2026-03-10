@@ -1,9 +1,8 @@
-
 #!/usr/bin/env python3
-“””
+"""
 Market Dashboard Data Updater
 Fetches live data via yfinance + CoinGecko, writes to JSON + regenerates index.html
-“””
+"""
 
 import json
 import os
