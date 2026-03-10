@@ -56,7 +56,7 @@ TICKERS = {
 }
 
 def fetch_yfinance(key, ticker):
-"""Fetch latest price from Yahoo Finance."""
+	"""Fetch latest price from Yahoo Finance."""
 try:
 t = yf.Ticker(ticker)
 info = t.fast_info
@@ -71,7 +71,7 @@ print(f"  ⚠ yfinance {key} ({ticker}): {e}")
 return None
 
 def fetch_btc_coingecko():
-"""Fetch BTC price from CoinGecko free API."""
+	"""Fetch BTC price from CoinGecko free API."""
 try:
 url = "https://api.coingecko.com/api/v3/simple/price"
 r = requests.get(url, params={"ids": "bitcoin", "vs_currencies": "usd"}, timeout=10)
