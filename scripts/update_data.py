@@ -181,7 +181,7 @@ signals = {
 "dbs":    ("s-buy", "逢低買入"),
 }
 cls, label = signals.get(key, ("s-wtc", "觀望"))
-return f’<span class="sig {cls}">{label}</span>’
+return f'<span class="sig {cls}">{label}</span>’
 
 def row(icon, name, sub, key, price_fmt=None, base_fmt=None, extra_note="", target="", analyst_note="", analysis=""):
 d = data.get(key, {})
