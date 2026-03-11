@@ -1,0 +1,24 @@
+name: 🏃 Keep Alive
+
+# 每周一 UTC 12:00 自动运行，防止 GitHub 因仓库不活跃而暂停 scheduled workflows
+on:
+  schedule:
+    - cron: '0 12 * * 1'
+  workflow_dispatch:
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🏃 Keepalive ping
+        uses: gautamkrishnar/keepalive-workflow@v2
+        with:
+          time_elapsed: 20          # 超过20天没活动就自动触发一次 commit
+          auto_push: true
