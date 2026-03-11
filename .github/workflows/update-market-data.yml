@@ -1,0 +1,78 @@
+name: 📈 Update Market Data Daily
+
+on:
+  schedule:
+    # ── 每天4次触发（分散时间，提高至少1次成功概率）──
+    # UTC 00:30 = SGT 08:30  亚洲开盘前
+    - cron: '30 0 * * 1-5'
+    # UTC 01:15 = SGT 09:15  亚洲开盘后（错开整点高峰）
+    - cron: '15 1 * * 1-5'
+    # UTC 08:45 = SGT 16:45  美股开盘前
+    - cron: '45 8 * * 1-5'
+    # UTC 21:05 = SGT 05:05  凌晨保底（流量最低，最可靠）
+    - cron: '5 21 * * 1-5'
+
+  # 允许手动触发
+  workflow_dispatch:
+
+  # ── 关键：每次有人 push 代码也触发一次更新 ──
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - 'index.html'        # 避免机器人自己 push 触发死循环
+      - 'data/**'
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Install dependencies
+        run: |
+          pip install yfinance requests python-dateutil pytz
+
+      - name: 🔄 Run market data update script
+        run: python scripts/update_data.py
+
+      - name: 🚀 Commit and push updated HTML
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add index.html data/market_data.json
+          # 只有真的有变化才 commit，避免空 commit 堆积
+          if git diff --staged --quiet; then
+            echo "ℹ No changes to commit"
+          else
+            git commit -m "📊 Auto-update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+            echo "✅ Pushed successfully"
+          fi
+
+      # ── 保活：每次运行都 touch 一个时间戳，防止仓库被判定为不活跃 ──
+      - name: 🏃 Keep repository alive
+        run: |
+          mkdir -p .github
+          echo "Last run: $(date -u +'%Y-%m-%d %H:%M:%S UTC')" > .github/last-run.txt
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .github/last-run.txt
+          if git diff --staged --quiet; then
+            echo "ℹ Timestamp unchanged"
+          else
+            git commit -m "⏰ keepalive $(date -u +'%Y-%m-%d')"
+            git push
+          fi
