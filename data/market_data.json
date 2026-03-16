@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-03-16 14:08 SGT",
+  "updated_at": "2026-03-16 14:11 SGT",
   "assets": {
     "gold": {
-      "price": 5020.7002,
+      "price": 5021.3999,
       "baseline": 5230,
-      "delta": -209.2998,
-      "pct": -4.0,
+      "delta": -208.6001,
+      "pct": -3.99,
       "src": "Bitget/Intellectia",
       "base_date": "2026-02-27"
     },
     "oil": {
-      "price": 98.43,
+      "price": 98.2,
       "baseline": 63.8,
-      "delta": 34.63,
-      "pct": 54.28,
+      "delta": 34.4,
+      "pct": 53.92,
       "src": "FXDailyReport",
       "base_date": "2026-02-27"
     },
@@ -26,10 +26,10 @@
       "base_date": "2026-02-27"
     },
     "btc": {
-      "price": 73886,
+      "price": 73798,
       "baseline": 65000,
-      "delta": 8886,
-      "pct": 13.67,
+      "delta": 8798,
+      "pct": 13.54,
       "src": "CoinDesk",
       "base_date": "2026-02-27"
     },
@@ -50,26 +50,26 @@
       "base_date": "2026-02-27"
     },
     "sse": {
-      "price": 4077.3091,
+      "price": 4077.0957,
       "baseline": 4162.88,
-      "delta": -85.5709,
+      "delta": -85.7843,
       "pct": -2.06,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
     },
     "hsi": {
-      "price": 25805.7402,
+      "price": 25797.3691,
       "baseline": 26630.54,
-      "delta": -824.7998,
-      "pct": -3.1,
+      "delta": -833.1709,
+      "pct": -3.13,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
     },
     "sti": {
-      "price": 4853.3901,
+      "price": 4854.75,
       "baseline": 4995.07,
-      "delta": -141.6799,
-      "pct": -2.84,
+      "delta": -140.32,
+      "pct": -2.81,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
     },
@@ -98,10 +98,10 @@
       "base_date": "2026-02-27"
     },
     "dbs": {
-      "price": 55.77,
+      "price": 55.79,
       "baseline": 57.5,
-      "delta": -1.73,
-      "pct": -3.01,
+      "delta": -1.71,
+      "pct": -2.97,
       "src": "SGX",
       "base_date": "2026-02-27"
     }
