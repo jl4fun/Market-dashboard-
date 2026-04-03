@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-03 19:10 SGT",
+  "updated_at": "2026-04-04 06:02 SGT",
   "assets": {
     "gold": {
       "price": 4651.5,
@@ -18,18 +18,18 @@
       "base_date": "2026-02-27"
     },
     "dxy": {
-      "price": 99.977,
+      "price": 100.186,
       "baseline": 97.57,
-      "delta": 2.407,
-      "pct": 2.47,
+      "delta": 2.616,
+      "pct": 2.68,
       "src": "FXDailyReport",
       "base_date": "2026-02-27"
     },
     "btc": {
-      "price": 66853,
+      "price": 66931,
       "baseline": 65000,
-      "delta": 1853,
-      "pct": 2.85,
+      "delta": 1931,
+      "pct": 2.97,
       "src": "CoinDesk",
       "base_date": "2026-02-27"
     },
@@ -50,9 +50,9 @@
       "base_date": "2026-02-27"
     },
     "sse": {
-      "price": 3880.0967,
+      "price": 3880.097,
       "baseline": 4162.88,
-      "delta": -282.7833,
+      "delta": -282.783,
       "pct": -6.79,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
