@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-04-07 06:17 SGT",
+  "updated_at": "2026-04-07 07:03 SGT",
   "assets": {
     "gold": {
-      "price": 4692.2002,
+      "price": 4685.1001,
       "baseline": 5230,
-      "delta": -537.7998,
-      "pct": -10.28,
+      "delta": -544.8999,
+      "pct": -10.42,
       "src": "Bitget/Intellectia",
       "base_date": "2026-02-27"
     },
     "oil": {
-      "price": 112.64,
+      "price": 113.36,
       "baseline": 63.8,
-      "delta": 48.84,
-      "pct": 76.55,
+      "delta": 49.56,
+      "pct": 77.68,
       "src": "FXDailyReport",
       "base_date": "2026-02-27"
     },
@@ -26,10 +26,10 @@
       "base_date": "2026-02-27"
     },
     "btc": {
-      "price": 69518,
+      "price": 68628,
       "baseline": 65000,
-      "delta": 4518,
-      "pct": 6.95,
+      "delta": 3628,
+      "pct": 5.58,
       "src": "CoinDesk",
       "base_date": "2026-02-27"
     },
