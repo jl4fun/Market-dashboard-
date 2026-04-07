@@ -1,51 +1,51 @@
 {
-  "updated_at": "2026-04-07 19:42 SGT",
+  "updated_at": "2026-04-08 00:19 SGT",
   "assets": {
     "gold": {
-      "price": 4674.7998,
+      "price": 4680.5,
       "baseline": 5230,
-      "delta": -555.2002,
-      "pct": -10.62,
+      "delta": -549.5,
+      "pct": -10.51,
       "src": "Bitget/Intellectia",
       "base_date": "2026-02-27"
     },
     "oil": {
-      "price": 114.65,
+      "price": 114.84,
       "baseline": 63.8,
-      "delta": 50.85,
-      "pct": 79.7,
+      "delta": 51.04,
+      "pct": 80.0,
       "src": "FXDailyReport",
       "base_date": "2026-02-27"
     },
     "dxy": {
-      "price": 99.997,
+      "price": 99.868,
       "baseline": 97.57,
-      "delta": 2.427,
-      "pct": 2.49,
+      "delta": 2.298,
+      "pct": 2.36,
       "src": "FXDailyReport",
       "base_date": "2026-02-27"
     },
     "btc": {
-      "price": 68409,
+      "price": 68152,
       "baseline": 65000,
-      "delta": 3409,
-      "pct": 5.24,
+      "delta": 3152,
+      "pct": 4.85,
       "src": "CoinDesk",
       "base_date": "2026-02-27"
     },
     "sp500": {
-      "price": 6611.8301,
+      "price": 6576.2998,
       "baseline": 6878.88,
-      "delta": -267.0499,
-      "pct": -3.88,
+      "delta": -302.5802,
+      "pct": -4.4,
       "src": "CNBC Official",
       "base_date": "2026-02-27"
     },
     "nasdaq": {
-      "price": 21996.3398,
+      "price": 21813.5645,
       "baseline": 22668.21,
-      "delta": -671.8702,
-      "pct": -2.96,
+      "delta": -854.6455,
+      "pct": -3.77,
       "src": "CNBC Official",
       "base_date": "2026-02-27"
     },
@@ -66,17 +66,17 @@
       "base_date": "2026-02-27"
     },
     "sti": {
-      "price": 4958.0098,
+      "price": 4958.01,
       "baseline": 4995.07,
-      "delta": -37.0602,
+      "delta": -37.06,
       "pct": -0.74,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
     },
     "twii": {
-      "price": 33229.8203,
+      "price": 33229.82,
       "baseline": 35414.49,
-      "delta": -2184.6697,
+      "delta": -2184.67,
       "pct": -6.17,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
