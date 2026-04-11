@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11 05:51 SGT",
+  "updated_at": "2026-04-11 08:28 SGT",
   "assets": {
     "gold": {
       "price": 4771.0,
@@ -26,10 +26,10 @@
       "base_date": "2026-02-27"
     },
     "btc": {
-      "price": 73139,
+      "price": 72901,
       "baseline": 65000,
-      "delta": 8139,
-      "pct": 12.52,
+      "delta": 7901,
+      "pct": 12.16,
       "src": "CoinDesk",
       "base_date": "2026-02-27"
     },
