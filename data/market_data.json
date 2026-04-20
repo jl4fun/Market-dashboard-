@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-04-20 11:57 SGT",
+  "updated_at": "2026-04-20 12:28 SGT",
   "assets": {
     "gold": {
-      "price": 4813.2998,
+      "price": 4813.3,
       "baseline": 5230,
-      "delta": -416.7002,
+      "delta": -416.7,
       "pct": -7.97,
       "src": "Bitget/Intellectia",
       "base_date": "2026-02-27"
@@ -18,18 +18,18 @@
       "base_date": "2026-02-27"
     },
     "dxy": {
-      "price": 98.286,
+      "price": 98.283,
       "baseline": 97.57,
-      "delta": 0.716,
+      "delta": 0.713,
       "pct": 0.73,
       "src": "FXDailyReport",
       "base_date": "2026-02-27"
     },
     "btc": {
-      "price": 74640,
+      "price": 74510,
       "baseline": 65000,
-      "delta": 9640,
-      "pct": 14.83,
+      "delta": 9510,
+      "pct": 14.63,
       "src": "CoinDesk",
       "base_date": "2026-02-27"
     },
@@ -58,10 +58,10 @@
       "base_date": "2026-02-27"
     },
     "hsi": {
-      "price": 26410.1992,
+      "price": 26376.9805,
       "baseline": 26630.54,
-      "delta": -220.3408,
-      "pct": -0.83,
+      "delta": -253.5595,
+      "pct": -0.95,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
     },
@@ -74,10 +74,10 @@
       "base_date": "2026-02-27"
     },
     "twii": {
-      "price": 37283.1797,
+      "price": 37200.5117,
       "baseline": 35414.49,
-      "delta": 1868.6897,
-      "pct": 5.28,
+      "delta": 1786.0217,
+      "pct": 5.04,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
     },
@@ -90,18 +90,18 @@
       "base_date": "2026-02-25"
     },
     "sia": {
-      "price": 6.55,
+      "price": 6.56,
       "baseline": 7.17,
-      "delta": -0.62,
-      "pct": -8.65,
+      "delta": -0.61,
+      "pct": -8.51,
       "src": "SGX",
       "base_date": "2026-02-27"
     },
     "dbs": {
-      "price": 57.35,
+      "price": 57.31,
       "baseline": 57.5,
-      "delta": -0.15,
-      "pct": -0.26,
+      "delta": -0.19,
+      "pct": -0.33,
       "src": "SGX",
       "base_date": "2026-02-27"
     }
