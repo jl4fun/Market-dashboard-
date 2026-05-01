@@ -1,51 +1,51 @@
 {
-  "updated_at": "2026-05-01 18:11 SGT",
+  "updated_at": "2026-05-02 06:00 SGT",
   "assets": {
     "gold": {
-      "price": 4574.2998,
+      "price": 4625.6001,
       "baseline": 5230,
-      "delta": -655.7002,
-      "pct": -12.54,
+      "delta": -604.3999,
+      "pct": -11.56,
       "src": "Bitget/Intellectia",
       "base_date": "2026-02-27"
     },
     "oil": {
-      "price": 105.43,
+      "price": 102.5,
       "baseline": 63.8,
-      "delta": 41.63,
-      "pct": 65.25,
+      "delta": 38.7,
+      "pct": 60.66,
       "src": "FXDailyReport",
       "base_date": "2026-02-27"
     },
     "dxy": {
-      "price": 98.097,
+      "price": 98.211,
       "baseline": 97.57,
-      "delta": 0.527,
-      "pct": 0.54,
+      "delta": 0.641,
+      "pct": 0.66,
       "src": "FXDailyReport",
       "base_date": "2026-02-27"
     },
     "btc": {
-      "price": 77207,
+      "price": 78174,
       "baseline": 65000,
-      "delta": 12207,
-      "pct": 18.78,
+      "delta": 13174,
+      "pct": 20.27,
       "src": "CoinDesk",
       "base_date": "2026-02-27"
     },
     "sp500": {
-      "price": 7209.0098,
+      "price": 7230.1201,
       "baseline": 6878.88,
-      "delta": 330.1298,
-      "pct": 4.8,
+      "delta": 351.2401,
+      "pct": 5.11,
       "src": "CNBC Official",
       "base_date": "2026-02-27"
     },
     "nasdaq": {
-      "price": 24892.3105,
+      "price": 25114.4434,
       "baseline": 22668.21,
-      "delta": 2224.1005,
-      "pct": 9.81,
+      "delta": 2446.2334,
+      "pct": 10.79,
       "src": "CNBC Official",
       "base_date": "2026-02-27"
     },
