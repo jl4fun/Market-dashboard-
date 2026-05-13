@@ -1,66 +1,66 @@
 {
-  "updated_at": "2026-05-13 19:16 SGT",
+  "updated_at": "2026-05-14 06:22 SGT",
   "assets": {
     "gold": {
-      "price": 4699.5,
+      "price": 4697.5,
       "baseline": 5230,
-      "delta": -530.5,
-      "pct": -10.14,
+      "delta": -532.5,
+      "pct": -10.18,
       "src": "Bitget/Intellectia",
       "base_date": "2026-02-27"
     },
     "oil": {
-      "price": 102.32,
+      "price": 101.04,
       "baseline": 63.8,
-      "delta": 38.52,
-      "pct": 60.38,
+      "delta": 37.24,
+      "pct": 58.37,
       "src": "FXDailyReport",
       "base_date": "2026-02-27"
     },
     "dxy": {
-      "price": 98.492,
+      "price": 98.453,
       "baseline": 97.57,
-      "delta": 0.922,
-      "pct": 0.94,
+      "delta": 0.883,
+      "pct": 0.9,
       "src": "FXDailyReport",
       "base_date": "2026-02-27"
     },
     "btc": {
-      "price": 80574,
+      "price": 79268,
       "baseline": 65000,
-      "delta": 15574,
-      "pct": 23.96,
+      "delta": 14268,
+      "pct": 21.95,
       "src": "CoinDesk",
       "base_date": "2026-02-27"
     },
     "sp500": {
-      "price": 7400.96,
+      "price": 7444.25,
       "baseline": 6878.88,
-      "delta": 522.08,
-      "pct": 7.59,
+      "delta": 565.37,
+      "pct": 8.22,
       "src": "CNBC Official",
       "base_date": "2026-02-27"
     },
     "nasdaq": {
-      "price": 26088.1992,
+      "price": 26402.3438,
       "baseline": 22668.21,
-      "delta": 3419.9892,
-      "pct": 15.09,
+      "delta": 3734.1338,
+      "pct": 16.47,
       "src": "CNBC Official",
       "base_date": "2026-02-27"
     },
     "sse": {
-      "price": 4242.5718,
+      "price": 4242.572,
       "baseline": 4162.88,
-      "delta": 79.6918,
+      "delta": 79.692,
       "pct": 1.91,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
     },
     "hsi": {
-      "price": 26388.4395,
+      "price": 26388.44,
       "baseline": 26630.54,
-      "delta": -242.1005,
+      "delta": -242.1,
       "pct": -0.91,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
