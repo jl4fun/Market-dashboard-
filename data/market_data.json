@@ -1,66 +1,66 @@
 {
-  "updated_at": "2026-05-21 19:54 SGT",
+  "updated_at": "2026-05-22 06:38 SGT",
   "assets": {
     "gold": {
-      "price": 4514.3999,
+      "price": 4540.8999,
       "baseline": 5230,
-      "delta": -715.6001,
-      "pct": -13.68,
+      "delta": -689.1001,
+      "pct": -13.18,
       "src": "Bitget/Intellectia",
       "base_date": "2026-02-27"
     },
     "oil": {
-      "price": 100.49,
+      "price": 97.55,
       "baseline": 63.8,
-      "delta": 36.69,
-      "pct": 57.51,
+      "delta": 33.75,
+      "pct": 52.9,
       "src": "FXDailyReport",
       "base_date": "2026-02-27"
     },
     "dxy": {
-      "price": 99.252,
+      "price": 99.191,
       "baseline": 97.57,
-      "delta": 1.682,
-      "pct": 1.72,
+      "delta": 1.621,
+      "pct": 1.66,
       "src": "FXDailyReport",
       "base_date": "2026-02-27"
     },
     "btc": {
-      "price": 77169,
+      "price": 77549,
       "baseline": 65000,
-      "delta": 12169,
-      "pct": 18.72,
+      "delta": 12549,
+      "pct": 19.31,
       "src": "CoinDesk",
       "base_date": "2026-02-27"
     },
     "sp500": {
-      "price": 7432.9702,
+      "price": 7445.7202,
       "baseline": 6878.88,
-      "delta": 554.0902,
-      "pct": 8.05,
+      "delta": 566.8402,
+      "pct": 8.24,
       "src": "CNBC Official",
       "base_date": "2026-02-27"
     },
     "nasdaq": {
-      "price": 26270.3594,
+      "price": 26293.0977,
       "baseline": 22668.21,
-      "delta": 3602.1494,
-      "pct": 15.89,
+      "delta": 3624.8877,
+      "pct": 15.99,
       "src": "CNBC Official",
       "base_date": "2026-02-27"
     },
     "sse": {
-      "price": 4077.2766,
+      "price": 4077.277,
       "baseline": 4162.88,
-      "delta": -85.6034,
+      "delta": -85.603,
       "pct": -2.06,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
     },
     "hsi": {
-      "price": 25386.5195,
+      "price": 25386.52,
       "baseline": 26630.54,
-      "delta": -1244.0205,
+      "delta": -1244.02,
       "pct": -4.67,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
@@ -74,9 +74,9 @@
       "base_date": "2026-02-27"
     },
     "twii": {
-      "price": 41368.2109,
+      "price": 41368.21,
       "baseline": 35414.49,
-      "delta": 5953.7209,
+      "delta": 5953.72,
       "pct": 16.81,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
