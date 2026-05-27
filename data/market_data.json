@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-05-27 12:55 SGT",
+  "updated_at": "2026-05-27 13:41 SGT",
   "assets": {
     "gold": {
-      "price": 4507.3999,
+      "price": 4505.0,
       "baseline": 5230,
-      "delta": -722.6001,
-      "pct": -13.82,
+      "delta": -725.0,
+      "pct": -13.86,
       "src": "Bitget/Intellectia",
       "base_date": "2026-02-27"
     },
     "oil": {
-      "price": 92.0,
+      "price": 92.04,
       "baseline": 63.8,
-      "delta": 28.2,
-      "pct": 44.2,
+      "delta": 28.24,
+      "pct": 44.26,
       "src": "FXDailyReport",
       "base_date": "2026-02-27"
     },
     "dxy": {
-      "price": 99.076,
+      "price": 99.067,
       "baseline": 97.57,
-      "delta": 1.506,
-      "pct": 1.54,
+      "delta": 1.497,
+      "pct": 1.53,
       "src": "FXDailyReport",
       "base_date": "2026-02-27"
     },
     "btc": {
-      "price": 75456,
+      "price": 75573,
       "baseline": 65000,
-      "delta": 10456,
-      "pct": 16.09,
+      "delta": 10573,
+      "pct": 16.27,
       "src": "CoinDesk",
       "base_date": "2026-02-27"
     },
@@ -50,18 +50,18 @@
       "base_date": "2026-02-27"
     },
     "sse": {
-      "price": 4099.2305,
+      "price": 4104.2119,
       "baseline": 4162.88,
-      "delta": -63.6495,
-      "pct": -1.53,
+      "delta": -58.6681,
+      "pct": -1.41,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
     },
     "hsi": {
-      "price": 25382.1602,
+      "price": 25343.6094,
       "baseline": 26630.54,
-      "delta": -1248.3798,
-      "pct": -4.69,
+      "delta": -1286.9306,
+      "pct": -4.83,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
     },
@@ -74,18 +74,18 @@
       "base_date": "2026-02-27"
     },
     "twii": {
-      "price": 44208.5703,
+      "price": 44377.7891,
       "baseline": 35414.49,
-      "delta": 8794.0803,
-      "pct": 24.83,
+      "delta": 8963.2991,
+      "pct": 25.31,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
     },
     "tsmc": {
-      "price": 2300.0,
+      "price": 2310.0,
       "baseline": 2025,
-      "delta": 275.0,
-      "pct": 13.58,
+      "delta": 285.0,
+      "pct": 14.07,
       "src": "TradingView ATH",
       "base_date": "2026-02-25"
     },
