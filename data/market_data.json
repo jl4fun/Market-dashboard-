@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-10 10:40 SGT",
+  "updated_at": "2026-08-10 11:17 SGT",
   "assets": {
     "gold": {
-      "price": 4389.6001,
+      "price": 4378.7002,
       "baseline": 5230,
-      "delta": -840.3999,
-      "pct": -16.07,
+      "delta": -851.2998,
+      "pct": -16.28,
       "src": "Bitget/Intellectia",
       "base_date": "2026-02-27"
     },
@@ -18,18 +18,18 @@
       "base_date": "2026-02-27"
     },
     "dxy": {
-      "price": 99.684,
+      "price": 99.712,
       "baseline": 97.57,
-      "delta": 2.114,
-      "pct": 2.17,
+      "delta": 2.142,
+      "pct": 2.2,
       "src": "FXDailyReport",
       "base_date": "2026-02-27"
     },
     "btc": {
-      "price": 64950,
+      "price": 64913,
       "baseline": 65000,
-      "delta": -50,
-      "pct": -0.08,
+      "delta": -87,
+      "pct": -0.13,
       "src": "CoinDesk",
       "base_date": "2026-02-27"
     },
@@ -50,18 +50,18 @@
       "base_date": "2026-02-27"
     },
     "sse": {
-      "price": 3956.5999,
+      "price": 3953.2722,
       "baseline": 4162.88,
-      "delta": -206.2801,
-      "pct": -4.96,
+      "delta": -209.6078,
+      "pct": -5.04,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
     },
     "hsi": {
-      "price": 25837.8008,
+      "price": 25845.8594,
       "baseline": 26630.54,
-      "delta": -792.7392,
-      "pct": -2.98,
+      "delta": -784.6806,
+      "pct": -2.95,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
     },
@@ -74,18 +74,18 @@
       "base_date": "2026-02-27"
     },
     "twii": {
-      "price": 45184.8086,
+      "price": 45159.8398,
       "baseline": 35414.49,
-      "delta": 9770.3186,
-      "pct": 27.59,
+      "delta": 9745.3498,
+      "pct": 27.52,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
     },
     "tsmc": {
-      "price": 2405.0,
+      "price": 2400.0,
       "baseline": 2025,
-      "delta": 380.0,
-      "pct": 18.77,
+      "delta": 375.0,
+      "pct": 18.52,
       "src": "TradingView ATH",
       "base_date": "2026-02-25"
     },
