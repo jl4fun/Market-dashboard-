@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-06 15:09 SGT",
+  "updated_at": "2026-11-06 15:53 SGT",
   "assets": {
     "gold": {
-      "price": 4058.8999,
+      "price": 4054.8,
       "baseline": 5230,
-      "delta": -1171.1001,
-      "pct": -22.39,
+      "delta": -1175.2,
+      "pct": -22.47,
       "src": "Bitget/Intellectia",
       "base_date": "2026-02-27"
     },
@@ -18,18 +18,18 @@
       "base_date": "2026-02-27"
     },
     "dxy": {
-      "price": 101.902,
+      "price": 101.941,
       "baseline": 97.57,
-      "delta": 4.332,
-      "pct": 4.44,
+      "delta": 4.371,
+      "pct": 4.48,
       "src": "FXDailyReport",
       "base_date": "2026-02-27"
     },
     "btc": {
-      "price": 75375,
+      "price": 75642,
       "baseline": 65000,
-      "delta": 10375,
-      "pct": 15.96,
+      "delta": 10642,
+      "pct": 16.37,
       "src": "CoinDesk",
       "base_date": "2026-02-27"
     },
@@ -50,26 +50,26 @@
       "base_date": "2026-02-27"
     },
     "sse": {
-      "price": 3644.9053,
+      "price": 3649.1775,
       "baseline": 4162.88,
-      "delta": -517.9747,
-      "pct": -12.44,
+      "delta": -513.7025,
+      "pct": -12.34,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
     },
     "hsi": {
-      "price": 24534.0195,
+      "price": 24427.3594,
       "baseline": 26630.54,
-      "delta": -2096.5205,
-      "pct": -7.87,
+      "delta": -2203.1806,
+      "pct": -8.27,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
     },
     "sti": {
-      "price": 5152.3101,
+      "price": 5139.4502,
       "baseline": 4995.07,
-      "delta": 157.2401,
-      "pct": 3.15,
+      "delta": 144.3802,
+      "pct": 2.89,
       "src": "Yahoo Finance",
       "base_date": "2026-02-27"
     },
@@ -98,10 +98,10 @@
       "base_date": "2026-02-27"
     },
     "dbs": {
-      "price": 69.6,
+      "price": 69.34,
       "baseline": 57.5,
-      "delta": 12.1,
-      "pct": 21.04,
+      "delta": 11.84,
+      "pct": 20.59,
       "src": "SGX",
       "base_date": "2026-02-27"
     }
